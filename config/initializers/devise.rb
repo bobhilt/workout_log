@@ -1,3 +1,7 @@
+#added to get remember-me link t work, per
+# http://stackoverflow.com/questions/5987075/devise-remember-me-not-working-localhost-issue
+Devise::TRUE_VALUES << ["on"]
+
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
