@@ -37,3 +37,11 @@ body {
   padding: 15px 15px 15px 30px;
   margin-bottom: 30px;
 }
+
+.form-group.required .control-label:before { 
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: -8px;
+    top:7px;
+}
